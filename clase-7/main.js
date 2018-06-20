@@ -1,4 +1,7 @@
+
+
 function cambiarStyle() {
+   
     document.getElementById('pMensaje').style.fontSize = "45px"; 
     
 }
@@ -64,12 +67,13 @@ function ejercicio5() {
 }
 
 function ejercicio6(suma1, suma2, resta, multiplicacion,division) {
-    
+
+  
     var sumar = suma1 + suma2;
     var restar =sumar- resta;
     var multiplicar = sumar * multiplicacion;
     var dividir = sumar/division;
     var operacionModulo = sumar %division;
     alert("SUMA " + sumar + " Resta " + restar + " multiplicacion " + multiplicar + " dividir " + dividir + " muodulo " + operacionModulo);
-
+    
 }
